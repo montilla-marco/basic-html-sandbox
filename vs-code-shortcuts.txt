@@ -1,0 +1,11 @@
+cmd + n                 = new
+cmd + ,                 = settings
+cmd + k + c             = line / block comment
+cmd + k + u             = line  / block uncomment
+cmd + delete            = delete line
+cmd + enter             = new line without cut current line
+cmd + d                 = select the same text in other lines
+
+alt + (up / down) arrow = move line
+
+shift + alt + down arrow = duplicate current line

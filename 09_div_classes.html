@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div, Span, id and class</title>
+  <style>
+    .card {
+        border: 1px solid #ccc;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .enhance {
+      color: yellowgreen;
+    }
+  </style>
+</head>
+<body>
+  <header id="main-header"  class="card">
+    <h1>Basic Html Sandbox</h1>
+    <p>A website to learn basic HTML features, div is the old form to separe concerns
+       in a traditional web page, so instead avoid to use div you should use header,
+       nav, section, article, aside, footer elements.
+    </p>
+    <p>
+      So the principal difference between div and span is, the first one is block element,
+      and the second one is inline element.
+    </p>
+    <p>
+      <span class="enhance">id(#) must be unique and apply for a single element, meanwhile, class(.) can be aplly
+      for other elements in the page.</span>
+    </p>
+  </header>
+  <nav id="main-nav">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+  <section id="about" class="card"><!-- section#about builds <section id="about"> -->
+    <h3>About</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum distinctio repellendus mollitia 
+      autem ex, quod ipsam, odit architecto ducimus dicta dolor. Vitae ad deserunt minima ipsum 
+      officiis minus possimus ex?
+    </p>
+  </section>
+  <section id="contact" class="card"><!-- section#contact builds <section id="contact"> -->
+    <h3>Contact</h3>
+    <address>
+      You can contact author at <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
+      If you see any bugs, please <a href="mailto:webmaster@somedomain.com">contact webmaster</a>.<br>
+      You may also want to visit us:<br>
+      Mozilla Foundation<br>
+      1981 Landings Drive<br>
+      Building K<br>
+      Mountain View, CA 94043-0801<br>
+      USA
+    </address>
+  </section>
+  <br/>
+  <footer id="footer"  class="card">
+    Copyright &copy; 2012-2013
+  </footer>
+</body>
+</html>
